@@ -1,8 +1,7 @@
+const sleep  = require("./controller");
 const hre = require("hardhat");
 
-const sleep = async (ms) => {
-    return new Promise((resolve) => setTimeout(resolve, ms))
-}
+
 // WhiteList address also constructor Value
 const contractAddress = "0x56e06DD47711D8433D7160E28E6ad771a0fc7e2d";
 

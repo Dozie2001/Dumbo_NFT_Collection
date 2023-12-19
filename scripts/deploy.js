@@ -1,8 +1,7 @@
+const sleep  = require("./controller");
 const hre = require("hardhat");
 
-async function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
+
 
 async function main() {
   /*
@@ -36,3 +35,4 @@ main()
         console.error(error);
         process.exit(1);
     });
+
